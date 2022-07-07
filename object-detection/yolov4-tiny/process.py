@@ -5,7 +5,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 print(current_dir)
 
-current_dir = 'data/obj'
+current_dir = 'data/data/train'
 
 # Percentage of images to be used for the test set
 percentage_test = 10;
@@ -22,7 +22,7 @@ for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.jpg")):
 
     if counter == index_test:
         counter = 1
-        file_test.write("data/obj" + "/" + title + '.jpg' + "\n")
+        file_test.write(current_dir + "/" + title + '.jpg' + "\n")
     else:
-        file_train.write("data/obj" + "/" + title + '.jpg' + "\n")
+        file_train.write(current_dir + "/" + title + '.jpg' + "\n")
         counter = counter + 1
