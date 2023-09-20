@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="train_aoi" id="train_aoi">
+	<SimpleField name="Id" type="int"></SimpleField>
+</Schema>
+<Folder><name>train_aoi</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#train_aoi">
+		<SimpleData name="Id">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.8730481827666,28.322705386618 84.188142517013,28.311425159855 84.1800852046892,28.0863575689419 83.8649908704428,28.0976377957048 83.8730481827666,28.322705386618</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
