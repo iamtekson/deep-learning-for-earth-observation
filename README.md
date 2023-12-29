@@ -7,10 +7,22 @@ If you enjoy this course, Please also support me by subscribing to my YouTube ch
 ## Topic covered
 
 [1. Convolution Neural Network (CNN)](#1-convolution-neural-network-cnn)
+
 [2. Deep learning dataset preparation](#2-deep-learning-dataset-preparation)
+
 [3. Land Use Land Cover Classification](#3-land-use-land-cover-classification)
+
 [4. Swimming pool and car detection (object detection)](#4-swimming-pool-and-car-detection-object-detection)
+
 [5. Building detection (image segmentation)](#5-building-detection-image-segmentation)
+
+[6. Land Use Land Cover Mapping (multi-class image segmentation)](#6-land-use-land-cover-mapping-multi-class-image-segmentation)
+
+[7. Landslide detection using SAR and Optical dataset](#7-landslide-detection-using-sar-and-optical-dataset)
+
+[8. End-to-end Deep Learning and Google Earth Engine](#8-end-to-end-deep-learning-and-google-earth-engine)
+
+[9. Flood mapping using Attention UNet](#9-flood-mapping-using-attention-unet)
 
 ### 1. Convolution Neural Network (CNN)
 CNNs are a type of deep learning algorithm designed for processing visual data. They're adept at tasks like image recognition by using specialized layers to automatically and hierarchically learn patterns and features from images.
@@ -36,13 +48,13 @@ Image segmentation focuses on dividing an image into meaningful parts or segment
 
 ![Building detection](./img/building_detection.png 'building detection')
 
-### 6. Land Use Land Cover Mapping (**mult-class image segmentation**)
+### 6. Land Use Land Cover Mapping (multi-class image segmentation)
 
 This involves a more detailed image segmentation process, aiming to map various land use and land cover classes within an area, such as distinguishing between different types of vegetation, water bodies, and infrastructure.
 
 ![LULC classification](./img/lulc_classification.png 'LULC classification')
 
-### 7. Landslide detection using **SAR** and **Optical** dataset
+### 7. Landslide detection using SAR and Optical dataset
 
 Combining Synthetic Aperture Radar (SAR) and Optical datasets enables the detection of potential landslide areas. SAR provides all-weather and day-and-night imaging, while optical datasets offer high-resolution imagery for identifying surface changes indicating potential landslides.
 
@@ -54,7 +66,7 @@ End-to-end deep learning in conjunction with Google Earth Engine involves levera
 
 ![end2endDL](./img/gee_dl_methodology.png 'end2endDL')
 
-### 9. Flood mapping using Attention unet
+### 9. Flood mapping using Attention UNet
 
 Flood mapping using Attention U-Net involves employing a specialized neural network architecture called Attention U-Net for the purpose of accurately detecting and mapping flooded areas within images or remote sensing data. The Attention U-Net model integrates the U-Net architecture with attention mechanisms, allowing it to focus on important regions while processing the data. This technique helps enhance the model's ability to distinguish between flooded and non-flooded areas by selectively attending to critical features in the imagery, thereby improving the accuracy of flood mapping and aiding in disaster response and management efforts.
 
