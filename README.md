@@ -2,9 +2,15 @@
 
 This is the repo for satellite imagery analysis using a deep-learning neural network. The content is part of my new course: [Deep Learning Application for Earth Observation](https://www.udemy.com/course/deep-learning-application-for-earth-observation/?referralCode=B4655A8A918826871A40)
 
-If you enjoy this course, Please also support me by subscribing to my youtube channel: [GeoDev](https://youtube.com/@geodev)
+If you enjoy this course, Please also support me by subscribing to my YouTube channel: [GeoDev](https://youtube.com/@geodev)
 
 ## Topic covered
+
+[1. Convolution Neural Network (CNN)](#1-convolution-neural-network-cnn)
+[2. Deep learning dataset preparation](#2-deep-learning-dataset-preparation)
+[3. Land Use Land Cover Classification](#3-land-use-land-cover-classification)
+[4. Swimming pool and car detection (object detection)](#4-swimming-pool-and-car-detection-object-detection)
+[5. Building detection (image segmentation)](#5-building-detection-image-segmentation)
 
 ### 1. Convolution Neural Network (CNN)
 CNNs are a type of deep learning algorithm designed for processing visual data. They're adept at tasks like image recognition by using specialized layers to automatically and hierarchically learn patterns and features from images.
@@ -19,12 +25,12 @@ Image classification involves categorizing images based on their content, like d
 
 ![eurosat dataset](./img/eurosat_dataset.png 'Image Classification')
 
-### 4. Swimming pool and car detection (**object detection**)
+### 4. Swimming pool and car detection (object detection)
 Object detection in images involves identifying and locating specific objects, like detecting swimming pools and cars within images or video frames using deep learning techniques.
 
 ![Car detection](./img/car_detection.png 'Car Detection')
 
-### 5. Building detection (**image segmentation**)
+### 5. Building detection (image segmentation)
 
 Image segmentation focuses on dividing an image into meaningful parts or segments. In the context of building detection, this technique delineates building boundaries within satellite or aerial imagery.
 
